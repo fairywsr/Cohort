@@ -4,4 +4,6 @@ let MyArr2 = new Array ("Apple", "Mango", "Bnana", "Kivi") //way-2 Constructor N
 
 console.log(MyArr);
 console.log(MyArr2);
+console.log( typeof MyArr)
 
+console.log(Array.isArray(MyArr))

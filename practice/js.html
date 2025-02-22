@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a class="ab" href="Home">Home</a></li>
+            <li><a class="ab" href="Home">Home</a></li>
+            <li><a class="ab" href="Home">Home</a></li>
+            <li><a class="ab" href="Home">Home</a></li>
+            <li><a class="ab" href="Home">Home</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const nav = document.querySelectorAll('.ab');
+        console.log(nav)
+        console.log(typeof nav + " querrySelectorAll")
+        navitems =  Array.from(nav)
+        console.log(typeof navitems + " querrySelectorAll")
+        console.log(navitems)
+        console.log(Array.isArray(navitems));
+
+        
+        const nav1 = document.getElementsByTagName('a');
+        console.log(nav1)
+        console.log(typeof nav1 + " getElementsByTagName")
+        nav12 = Array.from(nav1)
+        console.log(typeof nav12 + " getElementsByTagName")
+        console.log(nav12)
+        console.log(Array.isArray(nav12)); 
+
+
+        const Arr = [1, 2, 3, 45]
+        console.log(typeof Arr)
+        console.log(Array.isArray(Arr))
+    </script>
+</body>
+</html>
