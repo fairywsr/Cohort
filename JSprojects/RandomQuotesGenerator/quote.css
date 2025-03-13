@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3e3e3e;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    margin: 15% auto;
+}
+
+.container{
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    margin-top: 15px;
+}
+
+button{
+    background-color: blueviolet;
+    color: #ffff;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+}
