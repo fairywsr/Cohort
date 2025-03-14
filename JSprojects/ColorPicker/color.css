@@ -1,0 +1,73 @@
+body {
+  background-color: #3e3e3e;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.container {
+  background: rgba(164, 77, 188, 0.185);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(170, 62, 199, 0.105);
+  width: 350px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+   border: 2px solid red;
+}
+.colorInput {
+  display: inline-block;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#complementaryColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+/* input[type="color"] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    height: 15em;
+    padding: 0;
+    width: 15em;
+  } */
+   
+.colorBox {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px;
+}
+.favourites {
+  height: 150px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button{
+    padding: 10px 8px;
+    outline: none;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+}
