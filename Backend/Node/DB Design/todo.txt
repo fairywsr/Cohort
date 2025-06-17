@@ -1,0 +1,28 @@
+### Todo 
+
+-table
+-user
+ -name
+ -email
+ -password
+ -username
+ ph_number
+
+
+-note
+ -id
+ -title
+ -color
+ -created_by_user_id
+
+
+-sub_note
+ -id
+ -note_id (Parent ID)
+ -title
+ -description
+ -complete boolean
+ -content
+ -created_by_user_id
+
+  
